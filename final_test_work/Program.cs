@@ -4,9 +4,9 @@
 // коллекциями. Лучше обойтись исключительно массивами.
 
 // Примеры:
-// ["hello", "2", "world", ":-)"]->["2",":-)"]
-// ["1234", "1567", "-2", "computing science"]->["-2"]
-// ["Russia", "Denmark", "Kazan"]->[]
+// ["hello","2","world",":-)"]->["2",":-)"]
+// ["1234","1567","-2","computing science"]->["-2"]
+// ["Russia","Denmark","Kazan"]->[]
 
 string[] CreateArrayString(int size)
 {
