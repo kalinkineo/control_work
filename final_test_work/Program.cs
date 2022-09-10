@@ -30,9 +30,9 @@ void PrintArray(string[] array, bool limitedString)
                 Console.Write("[");
             if ((array[i].Length) <= 3)
             {
-
                 if ((i != 0) && (!limitedString))
                     Console.Write(", ");
+
                 Console.Write($"{array[i]}");
                 limitedString = false;
             }
